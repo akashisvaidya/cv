@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, inital-scale=1">
+ <style media="screen">
+   input[type=text], textarea{
+width: 100% ;
+ padding: 12px;
+  border: 1px solid;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px;
+    resize: vertical;
+     }
+     input[submit]:hover{
+       background-color: silver;
+     }
+      </style>
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <p>To contact me, Please submit the form. I will be in touch with you asap.</p>
+    <h4>Contact Form</h4>
+    <div class="container">
+      <form class="form" action="index.html" method="post">
+        <label for="fname">First Name</label>
+        <input type="text" id=fname name="firstname" placeholder="Your name...">
+        <label for="lname">Last Name</label>
+        <input type="text" id=lname name="lastname" placeholder="Your last name">
+<label for="email">Email</label>
+<input type="text" name="email" placeholder="Your email address.....">
+<label for="Subject">Subject</label>
+<textarea id="subject"  placeholder="Write your message..." style="height:200px"></textarea>
+<input type="submit" name="submit" value="Submit">
+       </form>
+
+    </div>
+
+  </body>
+</html>
